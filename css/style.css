@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Arial', sans-serif;
     background-image: url("../imgs/Airline_Reservations_System256.jpg");
@@ -74,4 +75,82 @@ button:hover {
 
 .login-link a:hover {
     text-decoration: underline;
+=======
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("../imgs/Airline_Reservations_System256.jpg");
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form, main {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    align-content: center;
+    opacity: 0.8;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #020202;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4c8caf;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #458ea0;
+}
+
+.user-type-info {
+    display: none;
+}
+
+.login-link {
+    text-align: end;
+    margin-top: 10px;
+    color: #333;
+}
+
+.login-link a {
+    color: #4c8caf;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+>>>>>>> 3152ded4569a94262a590e845c34b5ba83ed27a6
 }
